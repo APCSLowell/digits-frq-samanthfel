@@ -32,8 +32,3 @@ public class Digits
 		return digitList.toString();
 	}
 }
-	public String toString()
-	{
-		return digitList.toString();
-	}
-}
