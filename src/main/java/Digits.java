@@ -13,8 +13,8 @@ public class Digits
 		int numRemaining = num / 10;
     		while(numRemaining > 0)
     		{
-			digitList.add(0, new Integer(numRemaining % 10));
-			numRemaining /= 10;
+			digitList.add(0,(numRemaining % 10);
+			numRemaining = numRemaining/10;
 		}
 	}
 
