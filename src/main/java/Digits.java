@@ -9,7 +9,7 @@ public class Digits
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
 		digitList = new ArrayList<Integer>();
-    		digitList.add(0, new Integer(num % 10));
+    		digitList.add(0, (num % 10));
 		int numRemaining = num / 10;
     		while(numRemaining > 0)
     		{
